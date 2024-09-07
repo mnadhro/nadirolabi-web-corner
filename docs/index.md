@@ -5,7 +5,7 @@ My name Nadir, I have a PhD in structural engineering, this web site is personal
 
 I wonder if this could generate math equations in line like $A = \pi r^2$, or 
 $$
-\varepsilon = E_s \Sigma
+\varepsilon = E_s \sigma
 $$
 
 let's test it.
@@ -23,6 +23,7 @@ her is a numbered list:
 > could you insert you quot here
 
 I know how to code in pyton;
+
 ``` python
 import numpy as np
 import openseespy as osp
