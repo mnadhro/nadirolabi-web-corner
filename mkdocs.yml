@@ -9,6 +9,6 @@ theme:
   custom_dir: 'styling_/terminal_theme/'
 
 markdown_extensions:
-    - mdx_math
+    - mathjax
 
 
