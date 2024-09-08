@@ -6,7 +6,7 @@ theme:
   # name: mkdocs
   # name: terminal
   name: null
-  custom_dir: 'docs/styling_/terminal_theme/'
+  custom_dir: 'styling_/terminal_theme/'
 
 markdown_extensions:
     - mdx_math
