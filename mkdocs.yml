@@ -8,7 +8,13 @@ theme:
   name: null
   custom_dir: 'styling_/terminal_theme/'
 
+
 markdown_extensions:
-    - mathjax
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 
