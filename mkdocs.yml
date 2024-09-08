@@ -6,4 +6,4 @@ theme:
   # name: mkdocs
   # name: terminal
   name: null
-  custom_dir: 'mkdocs_dracula_theme/'
+  custom_dir: 'docs/styling_/terminal_theme/'
