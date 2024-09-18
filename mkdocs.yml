@@ -24,13 +24,13 @@ markdown_extensions:
       generic: true
   - toc:
       permalink: '#'
-      # toc_depth: '1-6'
+      toc_depth: '1-6'
   - nl2br
   - sane_lists
   - tables
 
-# extra_javascript:
-#   - javascripts/mathjax.js
-#   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 
