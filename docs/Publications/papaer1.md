@@ -2,7 +2,6 @@
 Paper: Parametric Evaluation of Slip Models for Reinforced Concrete Columns with Smooth Bars
 Author: M N Olabi
 Year: 2024
-[TOC]
 ---
 
 

@@ -1,7 +1,3 @@
----
-[TOC]
----
-
 
 > with
   **Brian Green**
@@ -120,7 +116,9 @@ notion of: Natural Units, length, speed, and time.
 $c^{\alpha}.\hbar^{\beta}.G^{\gamma}$
 
 $$ Planck Length = \sqrt{ \frac{\hbar G}{c^3} } \simeq 10^{-33} cm $$
+
 $$ Planck Time   = \sqrt{ \frac{\hbar G}{c^5} } \simeq  10^{-44} s $$
+
 $$ Planck Mass   = \sqrt{ \frac{\hbar C}{G} }   \simeq 2x10^{-8} kg $$
 
 ### [18] Heisenberg's Uncertainty Principle
@@ -150,6 +148,7 @@ Newtonian Gravity
 > ```Kepler, Newton, and Gravity```
 
 $$ F_G = \frac {GMm} {r^2} $$
+
 $$ F = ma $$
 
 ### [19] Euler-Lagrange Equations
