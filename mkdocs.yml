@@ -3,9 +3,9 @@ site_description: Just a personal webpage for me (Muhammed Nadir olabi)
 
 theme:
   # name: material
-  # name: mkdocs
+  name: mkdocs
   # name: terminal
-  name: null
+  # name: null
   custom_dir: 'styling_/terminal_theme/'
   palette: dark
 
