@@ -11,14 +11,17 @@ theme:
   # palette: dark
   # custom_dir: 'styling_/bootswatch_theme/darkly'
   # custom_dir: 'styling_/cinder'
-  colorscheme: dracula
+  # colorscheme: dracula
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - toc:
       permalink: true
-      separator: "_"
+      separator: "#"
+      toc_depth: "2-6"
+  - nl2br
+  - sane_lists
 
 extra_javascript:
   - javascripts/mathjax.js

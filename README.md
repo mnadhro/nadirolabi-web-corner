@@ -1,4 +1,3 @@
-[TOC]
 
 Muhammed Nadir Olabi Homepage
 ===

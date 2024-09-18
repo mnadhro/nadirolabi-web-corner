@@ -1,3 +1,5 @@
+[TOC]
+
 > with
   **Brian Green**
   on Youtube: https://www.youtube.com/playlist?list=PLKy-B3Qf_RDVL6Z_CmgKf0tAbpXTua9mV
@@ -12,7 +14,7 @@ Einstein Special Relativity
 $$ E = m.c^2 $$
 
 ### [02] Time Dilation:
-  
+
 $$ \Delta_{stationary} = \gamma . \Delta_{Moving} $$
 
 $$ \gamma = \frac {1} { \sqrt{1 - {v^2}/{c^2} }} $$
