@@ -7,8 +7,10 @@ theme:
   name: mkdocs
   # name: null
   # custom_dir: 'styling_/terminal_theme/'
-  custom_dir: 'styling_/bootswatch_theme/darkly'
   # palette: dark
+  # custom_dir: 'styling_/bootswatch_theme/darkly'
+  custom_dir: 'styling_/cinder'
+  colorscheme: dracula
 
 markdown_extensions:
   - pymdownx.arithmatex:
