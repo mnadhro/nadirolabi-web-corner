@@ -15,11 +15,11 @@ theme:
 
 markdown_extensions:
   - pymdownx.arithmatex:
-      generic: false
+      generic: true
   - toc:
       permalink: '#'
-      separator: "#"
-      toc_depth: "1-6"
+      separator: '_'
+      toc_depth: '1-6'
   - nl2br
   - sane_lists
 
