@@ -1,5 +1,5 @@
 
-M Nadir Olabi
+INTRO
 ===
 
 My name Nadir, I have a PhD in structural engineering, this web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
