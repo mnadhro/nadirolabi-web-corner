@@ -25,7 +25,7 @@ Integer ultricies malesuada quam. Nullam tempus scelerisque purus, sed mattis el
 + Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.
 + Cras erat dui, finibus vel lectus ac, pharetra dictum odio.
 
----
+
 
 Second Title
 ===
@@ -46,7 +46,7 @@ $$
 \Delta_s = \frac {slip} {\omega_3}
 $$
 
----
+
 
 Third Title
 ===
