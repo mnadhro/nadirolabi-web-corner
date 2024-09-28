@@ -1,9 +1,9 @@
 
 Muhammed Nadir Olabi Homepage
 ===
-this is the git repo for my [webpage](nadirolabi.pages.dev).
+this is the git repo for my [webpage](https://nadirolabi.pages.dev).
 
-[nadirolabi.pages.dev](nadirolabi.pages.dev)
+[nadirolabi.pages.dev](https://nadirolabi.pages.dev)
 
 next a small setup tu from the other place.
 ---
