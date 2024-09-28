@@ -3,6 +3,7 @@ Muhammed Nadir Olabi Homepage
 ===
 this is the git repo for my webpage.
 
+next a small setup tu from the other place.
 ---
 
 # Setup
