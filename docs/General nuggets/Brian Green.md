@@ -4,7 +4,7 @@
   on Youtube: https://www.youtube.com/playlist?list=PLKy-B3Qf_RDVL6Z_CmgKf0tAbpXTua9mV
 
 Einstein Special Relativity
-===
+---
 
 1905
 
@@ -42,7 +42,7 @@ $$ if \ V_1 = c \to \Delta V = c $$
 
 
 Math
-===
+---
 
 ### [05] Is $1=0.999999...$
 
@@ -70,7 +70,8 @@ $$
 ----
 
 
-# [11] Euler Identity:
+[11] Euler Identity:
+---
   
 Euler's number: $e = \lim\limits_{n\to\infty}  (1+\frac{1}{n})^n$
 
@@ -80,7 +81,7 @@ $$ e^{i\pi} + 1 = 0 $$
 
 
 Quantum Mechanics
-===
+---
 
 * $h$: Planck constant
 * $p$: momentum
@@ -141,7 +142,7 @@ where $<x>$ is average values
 
 
 Newtonian Gravity
-===
+---
 
 ### [17] Planetary Motion
 
@@ -163,7 +164,7 @@ $$ \frac{d}{dt} \frac {\partial L} {\partial \dot{x_i}} - \frac {\partial L} {\p
   
 
 Einstein General Relativity
-===
+---
 > 1907
 
 ### [26] General Theory of Relativity
