@@ -31,10 +31,8 @@ markdown_extensions:
   - attr_list
 
 plugins:
-  - privacy:
-      links_noopener: true
-      links_attr_map:
-        target: _blank
+  - search
+  - open-in-new-tab
 
 extra_javascript:
   - javascripts/mathjax.js
