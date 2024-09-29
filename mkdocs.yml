@@ -29,6 +29,8 @@ markdown_extensions:
   - sane_lists
   - tables
   - attr_list
+
+plugins:
   - privacy:
       links_noopener: true
       links_attr_map:
