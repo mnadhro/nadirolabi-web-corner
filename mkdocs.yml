@@ -32,7 +32,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - open-in-new-tab
 
 extra_javascript:
   - javascripts/mathjax.js
