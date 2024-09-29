@@ -46,7 +46,7 @@ $$
 \Delta_s = \frac {slip} {\omega_3}
 $$
 
-![eq_](vx_images/220146168552214.png)
+![](vx_images/138527729793877.png "eq" =251x)
 
 ---
 

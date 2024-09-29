@@ -28,6 +28,11 @@ markdown_extensions:
   - nl2br
   - sane_lists
   - tables
+  - attr_list
+  - privacy:
+      links_noopener: true
+      links_attr_map:
+      target: _blank
 
 extra_javascript:
   - javascripts/mathjax.js
