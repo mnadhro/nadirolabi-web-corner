@@ -2,7 +2,7 @@
 INTRO
 ===
 
-My name Nadir, I have a PhD in structural engineering, this web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
+My name is Nadir, I have a PhD in structural engineering, this web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
 
 I wonder if this could generate math equations in line like $A = \pi r^2$, or 
 $$
