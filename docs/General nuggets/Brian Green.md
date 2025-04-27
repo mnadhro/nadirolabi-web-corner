@@ -89,8 +89,10 @@ Quantum Mechanics
 * $\nu$: frequency
 
 ### [08] Photoelectric Effect
-  
-$$ E_{proton} = h.\nu $$
+
+$$
+E_{proton} = h.\nu
+$$
 
 ### [09] De Broglie Wavelength
 
@@ -170,7 +172,10 @@ Einstein General Relativity
 ### [26] General Theory of Relativity
 > ```The Essential Idea```
 
-$$ R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R = \frac {8 \pi G} {c^4} T_{\mu \nu} $$
+$$
+R_{\mu \nu} - \frac{1}{2} g_{\mu \nu} R =
+\frac {8 \pi G} {c^4} T_{\mu \nu}
+$$
 
 * $R_{\mu \nu}$: Ricci tensor
 * $R$: Scalar curvature

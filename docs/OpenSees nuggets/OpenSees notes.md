@@ -2,21 +2,24 @@
 STKO seminar
 ===
 
-## Displacement-based
+Displacement-based
+---
 * Requires a fine mesh for non-linear problems.
 * Characteristic length = element.
 * Shear not considered in sectionAggregator.
 * If torsion included in both fibersection and aggregator, set –GJ of fibersection = 0.
 * Element loads do not affect directly the section response.
 
-## Force-based
+Force-based
+---
 * One element per member is enough.
 * Characteristic length = gauss point.
 * Shear considered in sectionAggregator.
 * If torsion included in both fibersection and aggregator, set –GJ of fibersection = 0, or larger than torsional stiffness.
 * Element loads affect directly the section response.
 
-## Constraint Handler
+Constraint Handler
+---
 Wrong HANDLERS can lead to singularities.
 
 ### Plain
@@ -36,7 +39,8 @@ Wrong HANDLERS can lead to singularities.
 * Pay attention to duplicated constraints (over-constrained system).
 * Do not use convergence tests on displacements.
 
-## Penalty
+### Penalty
 * ```Does not change the system size```.
 * Pay attention to the penalty parameters.
 * Do not use convergence tests on unbalance.
+
