@@ -1,0 +1,281 @@
+/* Scale all MathJax equations to 150% */
+/* .MathJax { */
+/*     font-size: 200% ; */
+/* } */
+
+/* Inline math scaling */
+mjx-container:not([display="true"]) {
+    font-size: 120% ;
+}
+
+
+/* Display math scaling */
+/* .MathJax_Display, */
+/* .MathJax_Display .MathJax, */
+mjx-container[display="true"] {
+    font-size: 180% ;
+}
+
+
+/* Import Hack font */
+/* @import url('https://fonts.googleapis.com/css2?family=Hack:wght@400;700&display=swap'); */
+@font-face {
+    font-size: "28px";
+}
+/* html { */
+/*   font-size: 19px; */
+/* } */
+
+
+/* Dracula Theme for MkDocs Material */
+:root {
+    /* Dracula colors */
+    --dracula-background: #282a36;
+    --dracula-current-line: #44475a;
+    --dracula-foreground: #f8f8f2;
+    --dracula-comment: #6272a4;
+    --dracula-cyan: #8be9fd;
+    --dracula-green: #50fa7b;
+    --dracula-orange: #ffb86c;
+    --dracula-pink: #ff79c6;
+    --dracula-purple: #bd93f9;
+    --dracula-red: #ff5555;
+    --dracula-yellow: #f1fa8c;
+
+    /* Override Material theme variables */
+    --md-primary-fg-color: var(--dracula-purple);
+    --md-primary-bg-color: var(--dracula-background);
+    --md-accent-fg-color: var(--dracula-pink);
+    --md-default-bg-color: var(--dracula-background);
+    --md-default-fg-color: var(--dracula-foreground);
+    --md-code-bg-color: var(--dracula-current-line);
+    --md-code-fg-color: var(--dracula-green);
+}
+
+
+
+/* Main layout */
+body {
+    background-color: var(--dracula-background) ;
+    color: var(--dracula-foreground) ;
+}
+
+/* Header */
+.md-header {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-foreground) ;
+}
+
+/* Navigation */
+.md-tabs {
+    background-color: var(--dracula-background) ;
+}
+
+.md-tabs__link {
+    color: var(--dracula-foreground) ;
+}
+
+.md-tabs__link--active {
+    color: var(--dracula-purple) ;
+}
+
+/* Sidebar */
+.md-sidebar {
+    background-color: var(--dracula-background) ;
+}
+
+/* .md-sidebar--primary, */
+/* .md-sidebar--primary .md-sidebar__scrollwrap, */
+/* .md-sidebar--primary .md-sidebar__inner { */
+/*     background-color: var(--dracula-current-line) ; */
+/* } */
+
+.md-nav__link {
+    color: var(--dracula-foreground) ;
+}
+
+.md-nav__link--active {
+    color: var(--dracula-purple) ;
+}
+
+.md-nav__link:hover {
+    color: var(--dracula-pink) ;
+}
+
+.md-sidebar--primary .md-nav__title {
+    display: none ;
+}
+
+/* Clean replacement for "Table of contents" */
+.md-sidebar--secondary .md-nav__title {
+    visibility: hidden ;
+    position: relative ;
+}
+
+.md-sidebar--secondary .md-nav__title:before {
+    content: "TOC" ;
+    visibility: visible ;
+    position: absolute ;
+    left: 0 ;
+    top: 0 ;
+    width: 100% ;
+    height: 100% ;
+    display: flex ;
+    align-items: center ;
+    padding-left: 1rem ;
+    color: var(--dracula-cyan) ;
+    font-size: 0.8rem ;
+    /* font-weight: bold ; */
+}
+
+
+/* Main content */
+.md-main__inner {
+    background-color: var(--dracula-background) ;
+}
+
+.md-content {
+    background-color: var(--dracula-background) ;
+    color: var(--dracula-foreground) ;
+}
+
+/* Headings */
+.md-content h1 { color: var(--dracula-purple) ; }
+.md-content h2 { color: var(--dracula-cyan) ; }
+.md-content h3 { color: var(--dracula-green) ; }
+.md-content h4 { color: var(--dracula-orange) ; }
+.md-content h5 { color: var(--dracula-pink) ; }
+.md-content h6 { color: var(--dracula-yellow) ; }
+
+/* Links */
+.md-content a {
+    color: var(--dracula-cyan) ;
+}
+
+.md-content a:hover {
+    color: var(--dracula-pink) ;
+}
+
+/* Code blocks */
+.md-content pre {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-foreground) ;
+}
+
+.md-content code {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-green) ;
+}
+
+/* Tables */
+.md-content table {
+    background-color: var(--dracula-background) ;
+    color: var(--dracula-foreground) ;
+}
+
+.md-content th {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-purple) ;
+}
+
+.md-content td {
+    border-color: var(--dracula-comment) ;
+}
+
+/* Blockquotes */
+.md-content blockquote {
+    border-left: 4px solid var(--dracula-purple) ;
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-foreground) ;
+}
+
+/* Admonitions */
+.md-typeset .admonition.note {
+    border-color: var(--dracula-cyan) ;
+}
+.md-typeset .admonition.note > .admonition-title {
+    background-color: var(--dracula-cyan) ;
+    color: var(--dracula-background) ;
+}
+
+.md-typeset .admonition.info {
+    border-color: var(--dracula-purple) ;
+}
+.md-typeset .admonition.info > .admonition-title {
+    background-color: var(--dracula-purple) ;
+    color: var(--dracula-background) ;
+}
+
+.md-typeset .admonition.warning {
+    border-color: var(--dracula-orange) ;
+}
+.md-typeset .admonition.warning > .admonition-title {
+    background-color: var(--dracula-orange) ;
+    color: var(--dracula-background) ;
+}
+
+.md-typeset .admonition.danger {
+    border-color: var(--dracula-red) ;
+}
+.md-typeset .admonition.danger > .admonition-title {
+    background-color: var(--dracula-red) ;
+    color: var(--dracula-background) ;
+}
+
+.md-typeset .admonition.success {
+    border-color: var(--dracula-green) ;
+}
+.md-typeset .admonition.success > .admonition-title {
+    background-color: var(--dracula-green) ;
+    color: var(--dracula-background) ;
+}
+
+/* Search */
+.md-search__input {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-foreground) ;
+}
+
+.md-search__input::placeholder {
+    color: var(--dracula-comment) ;
+}
+
+/* Footer */
+.md-footer {
+    background-color: var(--dracula-current-line) ;
+    color: var(--dracula-foreground) ;
+}
+
+/* Buttons */
+.md-button {
+    background-color: var(--dracula-purple) ;
+    color: var(--dracula-background) ;
+    border-color: var(--dracula-purple) ;
+}
+
+.md-button:hover {
+    background-color: var(--dracula-pink) ;
+    border-color: var(--dracula-pink) ;
+}
+
+/* Scrollbars (Webkit) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--dracula-background);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--dracula-comment);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dracula-purple);
+}
+
+
+
