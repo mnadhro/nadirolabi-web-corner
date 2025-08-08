@@ -69,7 +69,8 @@ body {
 
 /* Header */
 .md-header {
-    background-color: var(--dracula-current-line) ;
+    background-color: #20212B;
+            /* var(--dracula-current-line) ; */
     color: var(--dracula-foreground) ;
 }
 
