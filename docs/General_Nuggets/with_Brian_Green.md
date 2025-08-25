@@ -1,9 +1,9 @@
 ---
-#lectures
+title: With Brian Green
+tags:
+  - lectures
+  - WebPage
 ---
-#lectures #WebPage
-
-
 # With [[Brian Green]] from YouTube
 
 The following is a summary with equations only from the series **with [[Brian Green]]** streamed on YouTube during the [[COVID]] time. The original playlist could be found [here](https://www.youtube.com/playlist?list=PLKy-B3Qf_RDVL6Z_CmgKf0tAbpXTua9mV). Episode numbers is in squared brackets.
@@ -13,37 +13,36 @@ The following is a summary with equations only from the series **with [[Brian Gr
 ## Einstein Special Relativity (1905)
 
 ### Einstein's famous equation [01]
-
 $$ E = m.c^2 $$
 
 ### Time Dilation [02]
-
 $$ \Delta_{stationary} = \gamma . \Delta_{Moving} $$
+
 $$ \gamma = \frac {1} { \sqrt{1 - {v^2}/{c^2} }} $$
 
 ### Lorentz Contraction [03]
-  
 $$ L_{outside} = \frac {L_{moving}} {\gamma} $$
 
 ### Relativity of Simultaneity [04]
 
 ### Relativistic Mass [06]
-  
 $$ m_{Rel} = m_{o@rest}.\gamma $$
+
 $$ E = m_{Rel}.c^2 $$
 
 ### Relativistic Velocity Combination [07]
-  
 $$ \Delta V  = \frac {V_1 - V_2} {1 - \frac{V_1.V_2}{c^2} } $$
+
 $$ if \ V_1 = c \to \Delta V = c $$
 
 ---
 
 ## Math
-
 Is $1=0.999999...$ [05]
 $$ 3* (1/3 = 0.333333...) \to 1 = 0.999999... $$
+
 or
+
 $$
 \begin{align}
 10x &= 9.999999... \\
@@ -64,7 +63,6 @@ $$ 8 - 2 / 2 x 3 + 4 = ? $$
 ---
 
 ## [[Euler]] Identity [11]
-  
 Euler's number: $e = \lim\limits_{n\to\infty}  (1+\frac{1}{n})^n$
 $$ e^{i\pi} + 1 = 0 $$
 
@@ -85,7 +83,6 @@ $$ \lambda = \frac {h} {p} $$
 ### Quantum Physics and Probability [10]
 
 ### Schrödinger's Equation [12]
-  
 + Non-relativistic, for **1** particle, **1** dimension,
 $$ i\hbar \frac {\partial\psi(x,t)} {\partial t} = - \frac {\hbar^2}{2m} \frac {\partial^2\psi(x,t)}{\partial x^2} + V(x)\psi(x,t) $$
 
@@ -96,8 +93,11 @@ $$ i\hbar \frac {\partial\psi(x,t)} {\partial t} = - \frac {\hbar^2}{2m} \frac {
 > notion of: Natural Units, length, speed, and time.
 
 $c^{\alpha}.\hbar^{\beta}.G^{\gamma}$
+
 $$ Planck Length = \sqrt{ \frac{\hbar G}{c^3} } \simeq 10^{-33} cm $$
+
 $$ Planck Time   = \sqrt{ \frac{\hbar G}{c^5} } \simeq  10^{-44} s $$
+
 $$ Planck Mass   = \sqrt{ \frac{\hbar C}{G} }   \simeq 2x10^{-8} kg $$
 
 ### Heisenberg's Uncertainty Principle [18]
@@ -121,6 +121,7 @@ where $<x>$ is average values
 > Kepler, Newton, and Gravity
 
 $$ F_G = \frac {GMm} {r^2} $$
+
 $$ F = ma $$
 
 ### Euler-Lagrange Equations [19]

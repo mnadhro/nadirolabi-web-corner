@@ -1,5 +1,8 @@
-Bread's list of common Arch problems + solutions
-===
+---
+title: Arch problems + solutions
+---
+# Bread's list of common Arch problems + solutions
+
 
 > Intended as a troubleshooting quickstart, or a TL;DR of some ArchWiki sections (a crime, I know) :^)
 
