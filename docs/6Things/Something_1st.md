@@ -1,11 +1,11 @@
 ---
 title: Some Structured md File
-tags: test
+tags:
+  - test
+  - blogging
 ---
 
-
-sOme structured md
-===
+# sOme structured md
 
 ## Title for first
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae varius ex, eu volutpat orci. Quisque vitae varius ex, eu volutpat orci. Integer ultricies malesuada quam. Aenean ullamcorper orci et vulputate fermentum. Cras erat dui, finibus vel lectus ac, pharetra dictum odio. Integer ultricies malesuada quam. Duis ac nulla varius diam ultrices rutrum. Cras vel elit sed mi placerat pharetra eget vel odio. Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula. Etiam risus sapien, auctor eu volutpat sit amet, porta in nunc.
@@ -46,7 +46,7 @@ $$
 \Delta_s = \frac {slip} {\omega_3}
 $$
 
-![](vx_images/138527729793877.png)
+![](../MediaFilez/138527729793877.png)
 
 ---
 
@@ -62,3 +62,5 @@ Quisque vitae varius ex, eu volutpat orci. Proin ipsum purus, laoreet quis dictu
 Quisque vitae varius ex, eu volutpat orci. Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.
 ###### 6th level
 Quisque vitae varius ex, eu volutpat orci. Proin ipsum purus, laoreet quis dictum a, laoreet sed ligula.
+
+<!-- material/tags -->
