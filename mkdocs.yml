@@ -26,11 +26,12 @@ markdown_extensions:
       generic: true
   - toc:
       permalink: '#'
-      toc_depth: '1-6'
+      toc_depth: '1-3'
   - nl2br
   - sane_lists
   - tables
   - attr_list
+  - md_in_html
 
 plugins:
   - search
