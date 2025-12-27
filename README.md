@@ -1,20 +1,23 @@
 
 Muhammed Nadir Olabi Homepage
 ===
-this is the git repo for my [webpage](https://nadirolabi.pages.dev).
 
-[nadirolabi.pages.dev](https://nadirolabi.pages.dev)
+This is the git repo for my [webpage](https://nadirolabi.site).
 
-next a small setup tu from the other place.
+[nadirolabi.site](https://nadirolabi.site)
+
+
 ---
+next is a small setup steps from the other place.
 
-# Setup
 
-## Github
+### Setup
+
+##### Github
 - Click on the user this template & create a new repository
 - Give the repository a name and click on create repository
 
-## Cloudflare
+##### Cloudflare
 Now the template is ready we will build the first version of the site to make sure everything is ready to go!
 - Go to https://dash.cloudflare.com
 - Go to `Workers & Pages`
@@ -29,3 +32,20 @@ Now the template is ready we will build the first version of the site to make su
 Now cloudflare will clone your github repro, build the website and publish it.
 If succesfull click continue project
 You will get a generate domain name like `mkdocs-em9.pages.dev`
+
+##### Welcome to MkDocs
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+
+###### Commands
+* `mkdocs new [dir-name]` - Create a new project.
+* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs build` - Build the documentation site.
+* `mkdocs -h` - Print help message and exit.
+
+###### Project layout
+    mkdocs.yml    # The configuration file.
+    docs/
+        index.md  # The documentation homepage.
+        ...       # Other markdown pages, images and other files.
+
+

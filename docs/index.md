@@ -1,57 +1,22 @@
 
-INTRO
+About Me
 ===
 
-My name is Nadir, I have a PhD in structural engineering, this web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
+My name is Nadir, I have a PhD in Structural Engineering.
+This web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
 
-I wonder if this could generate math equations in line like $A = \pi r^2$, or 
-$$
-\varepsilon = E_s \sigma
-$$
 
-let's test it.
 
-+ first list item come here
-+ second also
-+ and third
+> Quote:
+> "Little knowledge of science makes man an atheist, but indepth study of science makes him a believer in God"
 
-her is a numbered list:
+> Eq.
+> $$ e^{i\pi} + 1 = 0 $$
 
-1. for one
-2. for two
-3. for three
-4. for fourth and final list item, here.
-
-> could you insert you quot here
-
-I know how to code in pyton;
-
-``` python
-import numpy as np
-import openseespy as osp
-print( osp.version() )
-
-```
 
 thanks,
 mno
 
----
 
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
