@@ -63,13 +63,16 @@ plugins:
       blog_dir: 6Things
       blog_toc: true
   # - social
+  # - gen-files:
+  #     scripts:
+  #         - gen_indexes.py
 
 extra_javascript:
   # - javascript/mathjax.js  # for local use
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  # - stylesheets/extra.css
+  - stylesheets/extra.css
 
 
 
