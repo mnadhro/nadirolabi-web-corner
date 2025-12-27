@@ -111,7 +111,7 @@ body {
 }
 
 /* .md-sidebar--primary .md-nav__title { */
-/*     display: none ; */
+/*     display: 'true' ; */
 /* } */
 
 /* Clean replacement for "Table of contents" */

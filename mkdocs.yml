@@ -30,7 +30,7 @@ theme:
   features:
     # - navigation.path
     # - navigation.prune
-    # - navigation.tabs
+    - navigation.tabs
     # - header.autohide
     - navigation.top
     - content.code.copy
