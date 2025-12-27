@@ -19,12 +19,17 @@ theme:
   # custom_dir: 'styling_/cinder'
   # colorscheme: dracula
   features:
+    - navigation.path
+    # - navigation.prune
+    # - navigation.tabs
     # - header.autohide
+    - navigation.top
 
 markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - toc:
+      title: TOC
       permalink: '#'
       toc_depth: '1-3'
   - nl2br
