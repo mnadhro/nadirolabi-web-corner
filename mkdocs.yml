@@ -5,9 +5,18 @@ theme:
   user_color_mode_toggle: true
   name: material
   # palette:
-  #   scheme: slate
-  #   primary: green
-  #   accent: light blue
+  #   - scheme: default
+  #     primary: indigo
+  #     accent: indigo
+  #     toggle:
+  #       icon: material/weather-night
+  #       name: Switch to dark mode
+  #   - scheme: slate
+  #     primary: green
+  #     accent: light blue
+  #     toggle:
+  #       icon: material/weather-sunny
+  #       name: Switch to light mode
   font:
     text: Noto Sans Mono
     code: Roboto Mono
@@ -19,13 +28,19 @@ theme:
   # custom_dir: 'styling_/cinder'
   # colorscheme: dracula
   features:
-    - navigation.path
+    # - navigation.path
     # - navigation.prune
-    # - navigation.tabs
+    - navigation.tabs
     # - header.autohide
     - navigation.top
+    - content.code.copy
+    # - navigation.indexes
+    # - navigation.instant
+    # - navigation.sections
+
 
 markdown_extensions:
+  # - admonition   # to be used with mkdocs special admonitions
   - pymdownx.arithmatex:
       generic: true
   - toc:
@@ -40,8 +55,10 @@ markdown_extensions:
 
 plugins:
   - search
-  - tags
-      # tags_file: tags.md
+  - tags:
+      listings_map:
+          custom-id:
+              toc: false
   # - blog
   # - social
 
