@@ -110,9 +110,9 @@ body {
     color: var(--dracula-pink) ;
 }
 
-/* .md-sidebar--primary .md-nav__title { */
-/*     display: 'true' ; */
-/* } */
+.md-sidebar--primary .md-nav__title {
+    display: 'true' ;
+}
 
 /* Clean replacement for "Table of contents" */
 .md-sidebar--secondary .md-nav__title {

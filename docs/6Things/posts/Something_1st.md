@@ -3,6 +3,7 @@ title: Some Structured md File
 tags:
   - test
   - blogging
+date: 2025-09-20
 ---
 
 # sOme structured md
@@ -46,7 +47,7 @@ $$
 \Delta_s = \frac {slip} {\omega_3}
 $$
 
-![](../MediaFilez/138527729793877.png)
+![](../../MediaFilez/138527729793877.png)
 
 ---
 
