@@ -30,7 +30,7 @@ theme:
   features:
     # - navigation.path
     # - navigation.prune
-    # - navigation.tabs
+    - navigation.tabs
     # - header.autohide
     - navigation.top
     - content.code.copy
@@ -60,8 +60,12 @@ plugins:
           custom-id:
               toc: false
   - blog:
-      blog_dir: 6Things
+      blog_dir: 6Things_Blog
       blog_toc: true
+      archive: false
+      post_date_format: full
+      post_excerpt: required
+      # post_excerpt_separator: <div dir="rtl" markdown="1">
   # - social
   # - gen-files:
   #     scripts:
