@@ -5,14 +5,16 @@ theme:
   name: material
   user_color_mode_toggle: true
   palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
     - scheme: slate
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   font:
     text: Noto Sans Mono
@@ -20,11 +22,12 @@ theme:
 
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
     - content.code.copy
     - navigation.indexes
     # - navigation.path
-    # - navigation.prune
+    - navigation.prune
     # - header.autohide
     # - navigation.instant
     # - navigation.sections
@@ -57,9 +60,9 @@ plugins:
       post_excerpt: required
       # post_excerpt_separator: <div dir="rtl" markdown="1">
   # - social
-  - gen-files:
-      scripts:
-          - gen_indexes.py
+  # - gen-files:
+  #     scripts:
+  #         - gen_indexes.py
 
 extra_javascript:
   # - javascript/mathjax.js  # for local use

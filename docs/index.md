@@ -1,3 +1,6 @@
+---
+title: mno|home
+---
 
 # About Me
 
@@ -7,6 +10,8 @@ My name is Nadir, I have a PhD in Structural Engineering.
 This web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
 
 I am avalible through the following links:
+
+[carrd](https://mno.carrd.co/)
 
 ---
 > [!Quote]
@@ -20,7 +25,4 @@ I am avalible through the following links:
 
 thanks,
 mno
-
-
-
 
