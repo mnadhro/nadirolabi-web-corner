@@ -1,2 +1,0 @@
-# MNO publications
-

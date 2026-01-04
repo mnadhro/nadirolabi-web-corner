@@ -1,5 +1,9 @@
-/* Dracula Theme for MkDocs Material */
 :root {
+}
+
+/* Apply Dracula ONLY in dark mode */
+/* Dracula Theme for MkDocs Material */
+[data-md-color-scheme="slate"] {
     /* Dracula colors */
     --dracula-background: #282a36;
     --dracula-current-line: #44475a;
@@ -26,6 +30,7 @@
 }
 
 
+
 /* ------------------------------------------------------------------------------------------ */
 /* Scale all MathJax equations to 150% */
 /* .MathJax { */
@@ -46,49 +51,56 @@ mjx-container [display="true"] {
 }
 /* ------------------------------------------------------------------------------------------ */
 
+html {
+  font-size: 24px;
+  line-height: 1.6;
+}
 
-
-/* Main layout */
-body {
+[data-md-color-scheme="slate"] body {
     background-color: var(--dracula-background) ;
     color: var(--dracula-foreground) ;
 }
 
-
 /* Import Hack font */
 /* @import url('https://fonts.googleapis.com/css2?family=Hack:wght@400;700&display=swap'); */
-@font-face {
-    font-size: "28px";
-}
-/* html { */
-/*   font-size: 19px; */
+/* @font-face { */
+/*   font-family: "MyArabicFont"; */
+/*   src: url("/fonts/myarabicfont.woff2") format("woff2"); */
+/*   font-weight: normal; */
+/*   font-style: normal; */
 /* } */
 
+[dir="rtl"], [lang="ar"] {
+  font-family: "Noto Naskh Arabic";
+  font-size: 24px;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
 
 
 
 /* Header */
-.md-header {
+[data-md-color-scheme="slate"] .md-header {
     background-color: #20212B;
             /* var(--dracula-current-line) ; */
     color: var(--dracula-foreground) ;
 }
 
 /* Navigation */
-.md-tabs {
+[data-md-color-scheme="slate"] .md-tabs {
     background-color: var(--dracula-background) ;
 }
 
-.md-tabs__link {
+[data-md-color-scheme="slate"] .md-tabs__link {
     color: var(--dracula-foreground) ;
 }
 
-.md-tabs__link--active {
+[data-md-color-scheme="slate"] .md-tabs__link--active {
     color: var(--dracula-purple) ;
 }
 
 /* Sidebar */
-.md-sidebar {
+[data-md-color-scheme="slate"] .md-sidebar {
     background-color: var(--dracula-background) ;
 }
 
@@ -98,15 +110,15 @@ body {
 /*     background-color: var(--dracula-current-line) ; */
 /* } */
 
-.md-nav__link {
+[data-md-color-scheme="slate"] .md-nav__link {
     color: var(--dracula-foreground) ;
 }
 
-.md-nav__link--active {
+[data-md-color-scheme="slate"] .md-nav__link--active {
     color: var(--dracula-purple) ;
 }
 
-.md-nav__link:hover {
+[data-md-color-scheme="slate"] .md-nav__link:hover {
     color: var(--dracula-pink) ;
 }
 
@@ -132,29 +144,29 @@ body {
 
 
 /* Main content */
-.md-main__inner {
+[data-md-color-scheme="slate"] .md-main__inner {
     background-color: var(--dracula-background) ;
 }
 
-.md-content {
+[data-md-color-scheme="slate"] .md-content {
     background-color: var(--dracula-background) ;
     color: var(--dracula-foreground) ;
 }
 
 /* Headings */
-.md-content h1 { color: var(--dracula-purple) ; }
-.md-content h2 { color: var(--dracula-cyan) ; }
-.md-content h3 { color: var(--dracula-green) ; }
-.md-content h4 { color: var(--dracula-orange) ; }
-.md-content h5 { color: var(--dracula-pink) ; }
-.md-content h6 { color: var(--dracula-yellow) ; }
+[data-md-color-scheme="slate"] .md-content h1 { color: var(--dracula-purple) ; }
+[data-md-color-scheme="slate"] .md-content h2 { color: var(--dracula-cyan) ; }
+[data-md-color-scheme="slate"] .md-content h3 { color: var(--dracula-green) ; }
+[data-md-color-scheme="slate"] .md-content h4 { color: var(--dracula-orange) ; }
+[data-md-color-scheme="slate"] .md-content h5 { color: var(--dracula-pink) ; }
+[data-md-color-scheme="slate"] .md-content h6 { color: var(--dracula-yellow) ; }
 
 /* Links */
-.md-content a {
+[data-md-color-scheme="slate"] .md-content a {
     color: var(--dracula-cyan) ;
 }
 
-.md-content a:hover {
+[data-md-color-scheme="slate"] .md-content a:hover {
     color: var(--dracula-pink) ;
 }
 
@@ -163,28 +175,28 @@ body {
 }
 
 /* Code blocks */
-.md-content pre {
+[data-md-color-scheme="slate"] .md-content pre {
     background-color: var(--dracula-current-line) ;
     color: var(--dracula-foreground) ;
 }
 
-.md-content code {
+[data-md-color-scheme="slate"] .md-content code {
     background-color: var(--dracula-current-line) ;
     color: var(--dracula-green) ;
 }
 
 /* Tables */
-.md-content table {
+[data-md-color-scheme="slate"] .md-content table {
     background-color: var(--dracula-background) ;
     color: var(--dracula-foreground) ;
 }
 
-.md-content th {
+[data-md-color-scheme="slate"] .md-content th {
     background-color: var(--dracula-current-line) ;
     color: var(--dracula-purple) ;
 }
 
-.md-content td {
+[data-md-color-scheme="slate"] .md-content td {
     border-color: var(--dracula-comment) ;
 }
 
@@ -247,7 +259,7 @@ body {
 }
 
 /* Footer */
-.md-footer {
+[data-md-color-scheme="slate"] .md-footer {
     background-color: var(--dracula-current-line) ;
     color: var(--dracula-foreground) ;
 }
@@ -255,13 +267,13 @@ body {
 .md-footer__inner {  display: none; }
 
 /* Buttons */
-.md-button {
+[data-md-color-scheme="slate"] .md-button {
     background-color: var(--dracula-purple) ;
     color: var(--dracula-background) ;
     border-color: var(--dracula-purple) ;
 }
 
-.md-button:hover {
+[data-md-color-scheme="slate"] .md-button:hover {
     background-color: var(--dracula-pink) ;
     border-color: var(--dracula-pink) ;
 }

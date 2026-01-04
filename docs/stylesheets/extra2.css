@@ -1,0 +1,140 @@
+/* =========================================================
+   Fonts
+   ========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;700&family=Cairo:wght@400;700&display=swap');
+
+/* Default (Light Mode) Typography */
+:root {
+  --md-default-font-family: "Fira Code", monospace;
+  --md-code-font-family: "Fira Code", monospace;
+}
+
+/* =========================================================
+   Base Layout Adjustments
+   ========================================================= */
+.md-typeset {
+  line-height: 1.6;
+}
+
+.md-typeset pre {
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+/* =========================================================
+   Dracula Theme — DARK MODE ONLY
+   ========================================================= */
+[data-md-color-scheme="slate"] {
+  --dracula-bg: #282a36;
+  --dracula-current-line: #44475a;
+  --dracula-foreground: #f8f8f2;
+  --dracula-comment: #6272a4;
+  --dracula-cyan: #8be9fd;
+  --dracula-green: #50fa7b;
+  --dracula-orange: #ffb86c;
+  --dracula-pink: #ff79c6;
+  --dracula-purple: #bd93f9;
+}
+
+/* Backgrounds */
+[data-md-color-scheme="slate"] body,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-footer,
+[data-md-color-scheme="slate"] .md-sidebar {
+  background-color: var(--dracula-bg) !important;
+  color: var(--dracula-foreground) !important;
+}
+
+/* Headings */
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4 {
+  color: var(--dracula-purple);
+}
+
+/* Links */
+[data-md-color-scheme="slate"] a,
+[data-md-color-scheme="slate"] .md-nav__link {
+  color: var(--dracula-cyan);
+}
+
+/* Inline code */
+[data-md-color-scheme="slate"] code {
+  background-color: var(--dracula-current-line);
+  color: var(--dracula-orange);
+}
+
+/* Code blocks */
+[data-md-color-scheme="slate"] pre code {
+  background-color: var(--dracula-current-line);
+  color: var(--dracula-foreground);
+}
+
+/* Copy button visibility */
+[data-md-color-scheme="slate"] .md-clipboard__button {
+  color: var(--dracula-foreground);
+}
+
+/* =========================================================
+   Arabic / RTL Support
+   ========================================================= */
+
+/* Apply RTL and Arabic font when explicitly marked */
+[dir="rtl"], [lang="ar"] {
+  direction: rtl;
+  unicode-bidi: embed;
+  text-align: right;
+  font-family: "Cairo", "Noto Naskh Arabic", serif;
+}
+
+/* Content area */
+[dir="rtl"] .md-typeset,
+[lang="ar"] .md-typeset {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Lists */
+[dir="rtl"] .md-typeset ul,
+[dir="rtl"] .md-typeset ol {
+  padding-right: 1.25rem;
+  padding-left: 0;
+}
+
+/* Blockquotes */
+[dir="rtl"] .md-typeset blockquote {
+  border-right: 0.2rem solid var(--md-default-fg-color--light);
+  border-left: none;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+/* =========================================================
+   RTL TOC (Table of Contents)
+   ========================================================= */
+[dir="rtl"] .toc,
+[dir="rtl"] .md-nav__toc,
+[dir="rtl"] .md-nav__list--toc,
+[lang="ar"] .toc,
+[lang="ar"] .md-nav__toc {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Optional: move TOC to the right on wide screens */
+@media screen and (min-width: 76.25em) {
+  [dir="rtl"] .md-sidebar--secondary {
+    right: 0;
+    left: auto;
+  }
+}
+
+/* =========================================================
+   MathJax tweaks (neutral for both modes)
+   ========================================================= */
+.MathJax {
+  font-size: 1.05em;
+}
+
