@@ -2,7 +2,7 @@
 title: Some Structured md File
 tags:
   - test
-  - blogging
+  - 6things
 date: 2025-09-20
 ---
 
