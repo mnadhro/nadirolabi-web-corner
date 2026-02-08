@@ -14,6 +14,16 @@ I am avalible through the following links:
 [carrd](https://mno.carrd.co/)
 
 ---
+!!! note "Quote"
+    "Little knowledge of science makes man an atheist, but indepth study of science makes him a believer in God"
+
+---
+!!! info "Eq."
+    $$ e^{i\pi} + 1 = 0 $$
+
+---
+
+---
 > [!Quote]
 > "Little knowledge of science makes man an atheist, but indepth study of science makes him a believer in God"
 > :

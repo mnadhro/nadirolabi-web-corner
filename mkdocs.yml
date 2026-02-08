@@ -33,7 +33,7 @@ theme:
     # - navigation.sections
 
 markdown_extensions:
-  # - admonition   # to be used with mkdocs special admonitions
+  - admonition   # to be used with mkdocs special admonitions
   - pymdownx.arithmatex:
       generic: true
   - toc:
