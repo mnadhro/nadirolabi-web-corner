@@ -11,11 +11,11 @@ This web site is personal and will host my thoughts, ideas, plans, things I lear
 
 I am avalible through the following links:
 
+<div dir="rtl" markdown="1">
 
-[:simple-github:](https://github.com/mnadhro)
+[:simple-github:](https://github.com/mnadhro){:target="_blank"} -- [:material-twitter:](https://twitter.com/mnadhro_){:target="_blank"} -- [:simple-x:](https://twitter.com/mnadhro_){:target="_blank"}
 
-[:material-twitter:](https://twitter.com/mnadhro_) -- [:simple-x:](https://twitter.com/mnadhro_)
-
+</div>
 
 [carrd](https://mno.carrd.co/)
 
