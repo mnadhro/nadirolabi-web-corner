@@ -52,9 +52,7 @@ markdown_extensions:
 plugins:
   - search
   - tags:
-      listings_map:
-          custom-id:
-              toc: false
+      listings_toc: false
   - blog:
       blog_dir: 6Things_Blog
       blog_toc: true
@@ -77,4 +75,11 @@ extra_css:
 
 
 
+# nav:
+#   - mno|home: index.md
+#   - 6Things Blog: 6Things_Blog/index.md
+#   - OpenSees Things: OpenSees_Things/index.md
+#   - Linux Things: Linux_Things/index.md
+#   - STEM Things: STEM_Things/index.md
+#   - Publications: Publications/index.md
 
