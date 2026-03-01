@@ -13,11 +13,15 @@ I am avalible through the following links:
 
 <div align="center" markdown="1">
 
+. [:simple-github:](https://github.com/mnadhro){:target="_blank"} . [:material-twitter:](https://twitter.com/mnadhro_){:target="_blank"} . [:simple-x:](https://twitter.com/mnadhro_){:target="_blank"} .
 
+. [:simple-orcid:](https://orcid.org/0000-0003-2735-8961){:target="_blank"} . [:simple-researchgate:](https://www.researchgate.net/profile/M-Nadir-Olabi){:target="_blank"} . [:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mnadhro/){:target="_blank"} .
 
+. [carrd](https://mno.carrd.co/) .
 
-[:simple-github:](https://github.com/mnadhro){:target="_blank"} . [:material-twitter:](https://twitter.com/mnadhro_){:target="_blank"} . [:simple-x:](https://twitter.com/mnadhro_){:target="_blank"} . [:simple-orcid:](https://orcid.org/0000-0003-2735-8961){:target="_blank"} . [carrd](https://mno.carrd.co/) . [:simple-researchgate:](https://www.researchgate.net/profile/M-Nadir-Olabi){:target="_blank"} . [:fontawesome-brands-linkedin:](https://www.linkedin.com/in/mnadhro/){:target="_blank"} . 
 </div>
+
+
 
 <div dir="rtl" markdown="1" class="social-table">
 
@@ -26,6 +30,8 @@ I am avalible through the following links:
 | [:simple-github:](https://github.com/mnadhro){:target="_blank"} | [:material-twitter:](https://twitter.com/mnadhro_){:target="_blank"} | [:simple-maildotru:](mailto:mnadhro@gmail.comm){:target="_blank"} |
 
 </div>
+
+
 
 ---
 !!! note "Quote"
