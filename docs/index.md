@@ -20,9 +20,7 @@ I am avalible through the following links:
 
 [:simple-reddit:](https://www.reddit.com/user/mnadhro){:target="_blank"} . [:simple-goodreads:](https://www.goodreads.com/user/show/18461518-nad-r-olabi){:target="_blank"} . [:simple-linux:](https://distrowatch.com/table.php?distribution=arch){:target="_blank"} . [:simple-github:](https://github.com/mnadhro){:target="_blank"}
 
-[:simple-maildotru:](mailto:mnadhro@gmail.comm){:target="_blank"}
-[:simple-reactiveresume:](https://nadirolabi.site)
-[:simple-carrd:](https://mno.carrd.co/){:target="_blank"}
+[:simple-maildotru:](mailto:mnadhro@gmail.comm){:target="_blank"} . [:simple-reactiveresume:](https://nadirolabi.site) . [:simple-carrd:](https://mno.carrd.co/){:target="_blank"} . [:fontawesome-solid-university:](https://ubys.ibu.edu.tr/ABPDS/AcademicInformation/BilgiGoruntulemev2/Index?pid=9kioZymV8WDEr7Gab1f5pw!xGGx!!xGGx!){:target="_blank"}
 
 </div>
 
