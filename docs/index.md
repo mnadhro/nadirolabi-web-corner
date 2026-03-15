@@ -18,11 +18,11 @@ I am avalible through the following links:
 [:simple-x:](https://twitter.com/mnadhro_){:target="_blank"} . [:simple-facebook:](https://www.facebook.com/mnadhro){:target="_blank"} . [:simple-instagram:](https://www.instagram.com/mnadhro?igsh=cHA0YnBiemZ5cGVz){:target="_blank"} . [:material-twitter:](https://twitter.com/mnadhro_){:target="_blank"}
 
 
-[:simple-reddit:](https://www.reddit.com/user/mnadhro){:target="_blank"} . [:simple-goodreads:](https://www.goodreads.com/user/show/18461518-nad-r-olabi){:target="_blank"} . [:simple-linux:](https://distrowatch.com/table.php?distribution=arch){:target="_blank"} . [:simple-github:](https://github.com/mnadhro){:target="_blank"} .
+[:simple-reddit:](https://www.reddit.com/user/mnadhro){:target="_blank"} . [:simple-goodreads:](https://www.goodreads.com/user/show/18461518-nad-r-olabi){:target="_blank"} . [:simple-linux:](https://distrowatch.com/table.php?distribution=arch){:target="_blank"} . [:simple-github:](https://github.com/mnadhro){:target="_blank"}
 
 [:simple-maildotru:](mailto:mnadhro@gmail.comm){:target="_blank"}
 [:simple-reactiveresume:](https://nadirolabi.site)
-[:simple-carrd:](https://mno.carrd.co/)
+[:simple-carrd:](https://mno.carrd.co/){:target="_blank"}
 
 </div>
 
