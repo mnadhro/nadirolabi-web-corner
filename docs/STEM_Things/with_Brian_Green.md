@@ -1,9 +1,10 @@
 ---
 title: With Brian Green
 tags:
-  - lectures
-  - WebPage
+- lectures
+- WebPage
 ---
+
 # With [[Brian Green]] from YouTube
 
 The following is a summary with equations only from the series **with [[Brian Green]]** streamed on YouTube during the [[COVID]] time. The original playlist could be found [here](https://www.youtube.com/playlist?list=PLKy-B3Qf_RDVL6Z_CmgKf0tAbpXTua9mV). Episode numbers is in squared brackets.
@@ -187,4 +188,3 @@ $$ g = (1- \frac {2GM}{c^2 r})c^2 dt^2 - (1- \frac {2GM}{c^2 r})^{-1}dr^2 - r^2 
 $$ S = k \log{W} $$
 + The second law of thermodynamic, is a tendency.
 + Entropy could go down, but it is unlikely to happen
-
