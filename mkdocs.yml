@@ -51,6 +51,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - mkdocs-video
   - tags:
       listings_toc: false
   - blog:
@@ -82,4 +83,3 @@ extra_css:
 #   - Linux Things: Linux_Things/index.md
 #   - STEM Things: STEM_Things/index.md
 #   - Publications: Publications/index.md
-
