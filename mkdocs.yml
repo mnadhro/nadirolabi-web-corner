@@ -51,7 +51,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - mkdocs-video
   - tags:
       listings_toc: false
   - blog:
