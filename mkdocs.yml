@@ -8,13 +8,10 @@ nav:
   - 6Things Blog: 6Things_Blog/index.md
   - OpenSees Things:
       - OpenSees_Things/index.md
-      - ...
   - Linux Things:
       - Linux_Things/index.md
-      - ...
   - STEM Things:
       - STEM_Things/index.md
-      - ...
   - Publications: Publications/index.md
   - Tags: tags.md
 
