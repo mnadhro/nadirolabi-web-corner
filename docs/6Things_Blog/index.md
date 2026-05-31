@@ -1,1 +1,2 @@
-# 6Things
+# 6Things Blog
+

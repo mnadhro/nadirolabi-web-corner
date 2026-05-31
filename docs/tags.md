@@ -1,6 +1,6 @@
+
 # Tags
 
-[TAGS]
 
 <!-- material/tags -->
 

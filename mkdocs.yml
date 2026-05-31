@@ -6,10 +6,17 @@ site_description: Just a personal webpage for me (Muhammed Nadir olabi)
 nav:
   - mno|home: index.md
   - 6Things Blog: 6Things_Blog/index.md
-  - OpenSees Things: OpenSees_Things/index.md
-  - Linux Things: Linux_Things/index.md
-  - STEM Things: STEM_Things/index.md
+  - OpenSees Things:
+      - OpenSees_Things/index.md
+      - ...
+  - Linux Things:
+      - Linux_Things/index.md
+      - ...
+  - STEM Things:
+      - STEM_Things/index.md
+      - ...
   - Publications: Publications/index.md
+  - Tags: tags.md
 
 
 
@@ -67,6 +74,7 @@ markdown_extensions:
 
 plugins:
   - search
+  - awesome-pages
   - tags:
       listings_toc: false
   - blog:
@@ -91,4 +99,3 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-
