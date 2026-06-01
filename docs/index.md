@@ -5,7 +5,7 @@ title: mno|home
 # About Me
 
 
-My name is Nadir, I have a PhD in Structural Engineering.
+My name is نضر, I have a PhD in Structural Engineering.
 
 This web site is personal and will host my thoughts, ideas, plans, things I learned and want to share.
 
