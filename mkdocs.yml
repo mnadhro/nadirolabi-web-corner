@@ -2,7 +2,6 @@ site_name: Nadir Olabi Web Corner
 site_description: Just a personal webpage for me (Muhammed Nadir olabi)
 
 
-
 nav:
   - mno|home: index.md
   - 6Things Blog: 6Things_Blog/index.md
@@ -11,7 +10,6 @@ nav:
   - STEM Things: STEM_Things/index.md
   - Publications: Publications/index.md
   - Tags: tags.md
-
 
 
 theme:
@@ -68,7 +66,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - awesome-pages
   - tags:
       listings_toc: false
   - blog:
@@ -78,10 +75,16 @@ plugins:
       post_date_format: full
       post_excerpt: required
       # post_excerpt_separator: <div dir="rtl" markdown="1">
+  # - awesome-pages
   # - social
   # - gen-files:
   #     scripts:
   #         - gen_indexes.py
+
+
+
+hooks:
+  - auto_index.py
 
 
 

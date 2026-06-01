@@ -12,7 +12,7 @@ pymdown-extensions
 # For parsing frontmatter titles in gen_indexes.py
 PyYAML
 
-mkdocs-awesome-pages-plugin
+#mkdocs-awesome-pages-plugin
 
 
 #mkdocs>=1.6.0
