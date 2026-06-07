@@ -77,8 +77,6 @@ html {
   letter-spacing: 0;
 }
 
-
-
 /* Header */
 [data-md-color-scheme="slate"] .md-header {
     background-color: #20212B;
@@ -323,4 +321,3 @@ html {
     background-color: var(--dracula-background);
     border: none !important;
 }
-
