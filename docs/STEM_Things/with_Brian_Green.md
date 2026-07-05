@@ -3,6 +3,8 @@ title: With Brian Green
 tags:
 - lectures
 - WebPage
+author: Nadir Olabi
+date: 2026-06-28T23:20:25Z
 ---
 
 # With [[Brian Green]] from YouTube
