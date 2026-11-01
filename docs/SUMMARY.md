@@ -1,4 +1,4 @@
-* [mno|home](index.md)
+* [mno | home](index.md)
 * [6Things Blog](6Things_Blog/index.md)
 * [OpenSees Things](OpenSees_Things/)
 * [Linux Things](Linux_Things/index.md)
